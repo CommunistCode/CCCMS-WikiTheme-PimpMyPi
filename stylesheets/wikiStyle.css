@@ -1,0 +1,274 @@
+.wikiBody {
+	float: right;	
+  width: 740px;
+	margin: 10px 20px 20px 20px;
+  padding: 0px;
+}
+
+.wikiCategoryBar {
+	position:relative;
+	width: 100%;
+	margin: -3px 0px 15px 0px;
+	padding: 0px 0px 5px 0px;
+	border-bottom: 2px solid green;
+	font-size: 12px;
+}
+
+.wikiCategoryBar a {
+	font-weight: normal;
+	font-size: 12px;
+	padding: 0px 1px 0px 1px;
+	margin: 0px;
+}
+
+.wikiCategoryBar strong {
+	color: grey;
+}
+
+.wikiShowCategoryPages {
+	margin: 10px 0px 10px 0px;
+}
+
+.wikiShowCategoryPages h4 {
+	margin: 0px 0px 10px 0px;
+}
+
+.wikiShowCategoryPages ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.wikiShowCategoryPages li {
+	padding: 1px 0px 1px 10px;
+}
+
+.wikiLinks {
+  float: left;
+  padding: 0px;
+  width: 110px;
+  margin: 10px 0px 0px 10px;
+}
+
+.wikiLinks ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	border: none;
+}
+
+.wikiLinks li {
+	font-size: 12px;
+	list-style: none;
+	margin: 0px 0px 2px 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.wikiLinks a, .wikiLinks p {
+	font-size: 12px;
+}
+
+.wikiLinks .wikiLinkHeadingTopDiv {
+	font-weight: bold;
+	border-bottom: 1px solid green;
+	margin: 5px 0px 5px 0px;
+	padding: 0px 0px 2px 0px;
+}
+
+.wikiLinks .wikiLinkHeading {
+	font-weight: bold;
+	border-bottom: 1px solid green;
+	margin: 20px 0px 5px 0px;
+	padding: 0px 0px 2px 0px;
+}
+
+.wikiContent {
+	position: relative;
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	border: 0px;
+	background: #FFFFFF;
+	border: 1px solid grey;
+}
+
+.wikiContent .heading {
+	height: 21px;
+	margin: 0px;
+	padding: 5px 5px 8px 5px;
+	background: #EBEBEB;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.wikiContent .heading h3 {
+	float: left;
+	margin: 3px 0px 0px 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+.wikiContent .heading .editSave {
+	float: right;
+	width: 50px;
+	height: 23px;
+	margin: 2px 0px 0px 0px;
+	padding: 2px 3px 1px 0px;
+	border: 1px solid grey;
+	color: #3B3A3A;
+}
+
+.wikiContent .cancelButton {
+	float:right;
+	width: 25px;
+	height: 21px;
+	margin: 2px 0px 0px 5px;
+	padding: 0px 0px 3px 1px;
+	border: 1px solid grey;
+	color: #3B3A3A;
+}
+
+.wikiContent .uploadButton {
+	float:right;
+	width: 90px;
+	height: 23px;
+	margin: 2px 0px 0px 5px;
+	padding: 0px 0px 3px 1px;
+  border: 1px solid grey;
+  color: #3B3A3A;
+}
+
+.imageThumbContainer {
+	float: left;
+	line-height: 140px;
+	width: 168px;
+	height: 140px;
+	padding: 7px;
+	text-align: center;
+	margin: 0px;
+}
+
+.imageThumbClear {
+	clear: both;
+}
+
+.wikiImage {
+	max-width: 155px;
+	max-height: 140px;
+	vertical-align: middle;
+}
+
+.wikiImageFullContainer {
+	margin: 5px 0px 0px 20px;
+	width: 700px;
+	max-height: 515px;
+	text-align: center;
+}
+
+.wikiImageFull {
+	margin: 12.5px 0px 0px 0px;
+	max-width: 690px;
+	max-height: 490px;
+}
+
+.imageCaption {
+	background: #DDD;
+	padding: 10px;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+.imageNo {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+
+.fullImageLinkTable {
+	width: 100%;
+}
+
+.prevLink {
+	width: 100px;
+	text-align: left;
+}
+
+.centerLink {
+	text-align: center;
+}
+
+.nextLink {
+	width: 100px;
+ 	text-align: right;
+}
+
+
+.subCategoryPages, a {
+	font-size: 12px;
+}
+
+.wikiAdminBar {
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	border-top: 2px solid green;
+}
+
+.newWikiPageButton {
+	width: 150px;
+	border: 1px solid grey;
+	color: #3B3A3A;
+}
+
+.highlightHover:hover {
+	background: #ADADAD;
+	cursor: pointer;
+}
+
+.wikiContent .heading .history {
+	float: right;
+	width: 60px;
+	height: 23px;
+	padding: 2px 3px 1px 0px;
+	border: 1px solid grey;
+	color: #3B3A3A;
+	margin: 2px 5px 0px 0px;
+}
+
+.wikiContent .textInput {
+	width: 98.5%;
+	font-size: 13px;
+}
+
+.wikiContent .text {
+	border-top: 1px solid grey;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 5px 8px 5px;
+	font-size: 13px;
+}
+
+.wikiContent .text em {
+	color: grey;
+}
+
+.historyTable td {
+padding: 5px;
+}
+
+.historyTable .isCurrent {
+background:green;
+}
+
+.historyTable .date {
+width: 100px;
+background: yellow;
+}
+
+.historyTable .member {
+width: 100px;
+background: red;
+}
+
+.historyTable .content {
+}
