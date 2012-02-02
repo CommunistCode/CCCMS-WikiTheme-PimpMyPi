@@ -2,9 +2,6 @@
 	
   <head>
 
-     <!-- Google Web Font JS -->
-    <script src="<?php echo($directoryPath); ?>/themes/berry/scripts/googleWebFont.js"></script>	
-
     <!-- Favicon -->
     <link rel="SHORTCUT ICON" href='<?php echo($directoryPath); ?>/themes/berry/favicon.ico' />
 	
@@ -49,7 +46,7 @@
 
   		<div id='body' class='faux'>
 
-				<div class="wikiLinks">
+				<div class="sidebar">
 	
   				<?php
 						require_once("includes/wikiLinks.inc.php");
@@ -57,7 +54,7 @@
 	
   			</div>
 			
-				<div class="wikiBody">
+				<div class="sideBody">
 		
 			  <?php
 
